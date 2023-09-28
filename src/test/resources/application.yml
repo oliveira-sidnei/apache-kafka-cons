@@ -1,0 +1,10 @@
+#Base em memória
+spring:
+  flyway:
+    enabled: false
+  datasource:
+    url: jdbc:h2:mem:db?currentSchema=kafka-poc;DB_CLOSE_DELAY=-1;INIT=CREATE SCHEMA IF NOT EXISTS kafka-poc
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true

@@ -1,0 +1,30 @@
+server:
+  error:
+    include-message: always
+
+spring:
+  flyway:
+    enabled: true
+    validate-on-migrate: true
+    out-of-order: true
+    schemas:
+     -kafka-poc
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  application:
+    name: kafka-consumer
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DB_KAFKA_POC_URL}
+    username: ${DB_KAFKA_POC_USER}
+    password: ${DB_KAFKA_POC_PASSWORD}
+    type: 'com.zaxxer.hikari.HikariDataSource'
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 0
+      idle-timeout: 40000
