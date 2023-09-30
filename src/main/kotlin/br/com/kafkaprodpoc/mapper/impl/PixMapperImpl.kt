@@ -1,8 +1,8 @@
-package br.com.kafkaconspoc.mapper.impl
+package br.com.kafkaprodpoc.mapper.impl
 
-import br.com.kafkaconspoc.dto.PixDTO
-import br.com.kafkaconspoc.mapper.PixMapper
-import br.com.kafkaconspoc.model.Pix
+import br.com.kafkaprodpoc.dto.PixDTO
+import br.com.kafkaprodpoc.mapper.PixMapper
+import br.com.kafkaprodpoc.model.Pix
 import org.springframework.stereotype.Component
 
 @Component

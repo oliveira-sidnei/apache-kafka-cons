@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.kafkapoc</groupId>
-	<artifactId>apache-kafka-cons-poc</artifactId>
+	<artifactId>apache-kafka-prod-poc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>apache-kafka-cons-poc</name>
-	<description>apache-kafka-cons-poc</description>
+	<name>apache-kafka-prod-poc</name>
+	<description>apache-kafka-prod-poc</description>
 	<properties>
 		<java.version>17</java.version>
 		<kotlin.version>1.8.22</kotlin.version>

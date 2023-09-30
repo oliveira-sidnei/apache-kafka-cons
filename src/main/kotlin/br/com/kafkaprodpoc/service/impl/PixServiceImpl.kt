@@ -1,9 +1,9 @@
-package br.com.kafkaconspoc.service.impl
+package br.com.kafkaprodpoc.service.impl
 
-import br.com.kafkaconspoc.dto.PixDTO
-import br.com.kafkaconspoc.mapper.PixMapper
-import br.com.kafkaconspoc.repository.PixRepository
-import br.com.kafkaconspoc.service.PixService
+import br.com.kafkaprodpoc.dto.PixDTO
+import br.com.kafkaprodpoc.mapper.PixMapper
+import br.com.kafkaprodpoc.repository.PixRepository
+import br.com.kafkaprodpoc.service.PixService
 import lombok.RequiredArgsConstructor
 import org.springframework.kafka.core.KafkaTemplate
 import org.springframework.stereotype.Service

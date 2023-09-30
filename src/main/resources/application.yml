@@ -13,7 +13,7 @@ spring:
     serialization:
       INDENT_OUTPUT: true
   application:
-    name: kafka-consumer
+    name: kafka-producer
   jpa:
     properties:
       hibernate:
@@ -24,7 +24,3 @@ spring:
     username: ${DB_KAFKA_POC_USER}
     password: ${DB_KAFKA_POC_PASSWORD}
     type: 'com.zaxxer.hikari.HikariDataSource'
-    hikari:
-      maximum-pool-size: 10
-      minimum-idle: 0
-      idle-timeout: 40000

@@ -1,10 +1,10 @@
-package br.com.kafkaconspoc
+package br.com.kafkaprodpoc
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class ApacheKafkaConsPocApplicationTests {
+class ApacheKafkaProdPocApplicationTests {
 
 	@Test
 	fun contextLoads() {

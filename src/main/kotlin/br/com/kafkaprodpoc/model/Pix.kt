@@ -1,4 +1,4 @@
-package br.com.kafkaconspoc.model
+package br.com.kafkaprodpoc.model
 
 import jakarta.persistence.*
 import java.math.BigDecimal

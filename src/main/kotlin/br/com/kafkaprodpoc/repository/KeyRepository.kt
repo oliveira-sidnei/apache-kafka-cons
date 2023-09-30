@@ -1,6 +1,6 @@
-package br.com.kafkaconspoc.repository
+package br.com.kafkaprodpoc.repository
 
-import br.com.kafkaconspoc.model.Key
+import br.com.kafkaprodpoc.model.Key
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

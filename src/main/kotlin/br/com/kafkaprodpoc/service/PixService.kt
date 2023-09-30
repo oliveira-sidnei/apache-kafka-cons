@@ -1,6 +1,6 @@
-package br.com.kafkaconspoc.service
+package br.com.kafkaprodpoc.service
 
-import br.com.kafkaconspoc.dto.PixDTO
+import br.com.kafkaprodpoc.dto.PixDTO
 
 interface PixService {
 

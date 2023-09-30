@@ -1,6 +1,6 @@
-package br.com.kafkaconspoc.dto
+package br.com.kafkaprodpoc.dto
 
-import br.com.kafkaconspoc.model.PixStatus
+import br.com.kafkaprodpoc.model.PixStatus
 import java.math.BigDecimal
 import java.time.LocalDateTime
 
