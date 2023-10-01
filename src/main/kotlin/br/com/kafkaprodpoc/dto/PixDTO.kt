@@ -6,7 +6,7 @@ import java.time.LocalDateTime
 
 
 data class PixDTO (
-    val identifier: String,
+    var identifier: String,
     var sourceKey: String,
     var destinationKey: String,
     var transferAmount: BigDecimal,

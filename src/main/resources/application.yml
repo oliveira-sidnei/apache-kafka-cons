@@ -3,12 +3,6 @@ server:
     include-message: always
 
 spring:
-  flyway:
-    enabled: true
-    validate-on-migrate: true
-    out-of-order: true
-    schemas:
-     -kafka-poc
   jackson:
     serialization:
       INDENT_OUTPUT: true
@@ -17,6 +11,7 @@ spring:
   jpa:
     properties:
       hibernate:
+        ddl-auto: create-drop
         show_sql: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
